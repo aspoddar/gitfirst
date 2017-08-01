@@ -14,6 +14,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <plugin>
+   <groupID>org.apache.maven.plugins</groupID>
+   <artifactID>maven-war-plugin</artifactID>
+   <version>2.2</version>
+  </plugin>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -22,9 +28,3 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <plugin>
-   <groupID>org.apache.maven.plugins</groupID>
-   <artifactID>maven-war-plugin</artifactID>
-   <version>2.2</version>
-  </plugin>
-</project>
